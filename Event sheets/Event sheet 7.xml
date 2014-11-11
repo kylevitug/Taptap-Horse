@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 7</name>
+    <events>
+        <event-block sid="5678780698087404">
+            <conditions>
+                <condition id="0" name="On any touch start" sid="7812196421409731" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="6866442228862864" type="Audio">
+                    <param id="0" name="Audio file">BGM</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">25</param>
+                    <param id="1" name="Tag (optional)">&quot;background&quot;</param>
+                </action>
+                <action id="4" name="Preload" sid="3983928129064479" type="Audio">
+                    <param id="0" name="Audio file">GUN</param>
+                </action>
+                <action id="4" name="Preload" sid="8062052812541651" type="Audio">
+                    <param id="0" name="Audio file">tur</param>
+                </action>
+                <action id="4" name="Preload" sid="3255392556042289" type="Audio">
+                    <param id="0" name="Audio file">crowd_cheering_01</param>
+                </action>
+                <action id="4" name="Preload" sid="1332605127020347" type="Audio">
+                    <param id="0" name="Audio file">BGM</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="6013803066542219" type="System">
+                    <param id="0" name="Layout">Main Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
